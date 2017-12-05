@@ -4,13 +4,13 @@
    ========================================================================== */
 
 /**
- * 1. Correct the line height in all browsers.
+ * 1. Correct the line $(window).height()ght in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
 
 html {
-  line-height: 1.15; /* 1 */
+  line-$(window).height()ght: 1.15; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -77,8 +77,9 @@ figure {
  */
 
 hr {
+  -webkit-box-sizing: content-box;
   box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
+  $(window).height()ght: 0; /* 1 */
   overflow: visible; /* 2 */
 }
 
@@ -113,6 +114,7 @@ a {
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
+  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted; /* 2 */
 }
 
@@ -172,14 +174,14 @@ small {
 }
 
 /**
- * Prevent `sub` and `sup` elements from affecting the line height in
+ * Prevent `sub` and `sup` elements from affecting the line $(window).height()ght in
  * all browsers.
  */
 
 sub,
 sup {
   font-size: 75%;
-  line-height: 0;
+  line-$(window).height()ght: 0;
   position: relative;
   vertical-align: baseline;
 }
@@ -210,7 +212,7 @@ video {
 
 audio:not([controls]) {
   display: none;
-  height: 0;
+  $(window).height()ght: 0;
 }
 
 /**
@@ -244,7 +246,7 @@ select,
 textarea {
   font-family: sans-serif; /* 1 */
   font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
+  line-$(window).height()ght: 1.15; /* 1 */
   margin: 0; /* 2 */
 }
 
@@ -320,6 +322,7 @@ fieldset {
  */
 
 legend {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box; /* 1 */
   color: inherit; /* 2 */
   display: table; /* 1 */
@@ -353,6 +356,7 @@ textarea {
 
 [type="checkbox"],
 [type="radio"] {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
 }
@@ -363,7 +367,7 @@ textarea {
 
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
-  height: auto;
+  $(window).height()ght: auto;
 }
 
 /**

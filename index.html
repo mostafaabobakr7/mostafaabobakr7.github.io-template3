@@ -3,402 +3,301 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>template3</title>
+    <title>template2</title>
     <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/jquery.bxslider.min.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-<!-- upper bar -->
-    <div class="upperbar">
+<!--start Nav-->
+    <div class="navbar">
         <div class="container">
-            <div class="row">
-                <div class="col-sm text-left">
-                    <i class="fa fa-phone" aria-hidden="true"></i> <span>0808080</span>,
-                    <i class="fa fa-envelope-o" aria-hidden="true"></i> mostafaabobakr7@github.io
-                </div>
-                <div class="col-sm text-right">
-                    <span>Let's work together!</span>
-                    <span class="get-quote">Get Quote</span>
-                </div>
+            <div class="brand">
+                <h2>Classic</h2>
             </div>
+            <ul class="links">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#" data-value="ser">About </a> </li>
+                <li><a href="#" data-value="tes">Testimonials</a></li>
+                <li><a href="#" data-value="por">Portfolio</a></li>
+                <li><a href="#" data-value="con">Contact</a></li>
+            </ul>
+            <div class="clearfix"></div>
         </div>
     </div>
-    
-<!-- ........................................ -->
-<!-- Navbar-->
-    <nav class="navbar navbar-expand-md navbar-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <span>Elite</span><span>Corp</span>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">About</a>
-                    </li>       
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li> 
-                </ul>       
-            </div>
-        </div> 
-    </nav>
-<!-- ........................................ -->
-<!-- slider -->
-    <div class="slider">
-        <div id="slider" class="carousel slide" data-ride="carousel">
-        <div class="container">
-            <h1>We're an Independent <br> Design and <span>Development</span><br>Agency</h1>
-        </div>
-            <div class="carousel-inner">   
-                <div class="overlay"></div>
-                <div class="carousel-item carousel1 active"></div>
-                <div class="carousel-item carousel2"></div>
-                <div class="carousel-item carousel3"></div>
-                <div class="carousel-item carousel4"></div>
-            </div>
-            <ol class="carousel-indicators">
-                <li data-target="#slider" data-slide-to="0" class="active"></li>
-                <li data-target="#slider" data-slide-to="1"></li>
-                <li data-target="#slider" data-slide-to="2"></li>
-                <li data-target="#slider" data-slide-to="3"></li>
-            </ol>
+    <!--end Nav-->
+
+<!--start Header-->
+    <div class="header">
+        <div class="overlay">
+            <ul class="slider">
+                <li>
+                    <h2>Welcome to <span>Classic</span></h2>
+                    <p>this is paragraph one</p>
+                </li>
+                <li>
+                    <h2>Welcome to <span>Two</span></h2>
+                    <p>this is paragraph two</p>
+                </li>
+                <li>
+                    <h2>Welcome to <span>Three</span></h2>
+                    <p>this is paragraph three</p>
+                </li>
+                <li>
+                    <h2>Welcome to <span>Four</span></h2>
+                    <p>this is paragraph four</p>
+                </li>
+            </ul>
         </div>
     </div>
-<!-- ........................................ -->
-<!-- features-->
-    <div class="features">
+    <!--end Header-->
+<!--start Services-->
+    <div id="ser" class="services">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-lg-3">
-                    <i class="fa fa-lightbulb-o fa-3x fa-fw"></i>
-                    <h3>Great Ideas</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam atque blanditiis commodi, distinctio consequuntur qui veritatis numquam corporis aut? Libero autem sed quis ea? Odit sint hic aliquam voluptatibus. Excepturi.</p>
+            <h2 class="special-heading">Our Services</h2>
+            <div class="items">
+                <div class="item">
+                    <i class="fa fa-laptop fa-4x fa-fw"></i>
+                    <div class="info">
+                        <h3>Responsive</h3>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
                 </div>
-                <div class="col-sm-6 col-lg-3">
-                    <i class="fa fa-cogs fa-3x fa-fw"></i>
-                    <h3>Quick Settings</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam atque blanditiis commodi, distinctio consequuntur qui veritatis numquam corporis aut? Libero autem sed quis ea? Odit sint hic aliquam voluptatibus. Excepturi.</p>
-                </div> 
-                <div class="col-sm-6 col-lg-3">
-                    <i class="fa fa-cloud-download fa-3x fa-fw"></i>
-                    <h3>Cloud Services</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam atque blanditiis commodi, distinctio consequuntur qui veritatis numquam corporis aut? Libero autem sed quis ea? Odit sint hic aliquam voluptatibus. Excepturi.</p>
-                </div> 
-                <div class="col-sm-6 col-lg-3">
-                    <i class="fa fa-book fa-3x fa-fw"></i>
-                    <h3>Cross Development</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam atque blanditiis commodi, distinctio consequuntur qui veritatis numquam corporis aut? Libero autem sed quis ea? Odit sint hic aliquam voluptatibus. Excepturi.</p>
+                <div class="item">
+                    <i class="fa fa-mixcloud fa-4x fa-fw"></i>
+                    <div class="info">
+                        <h3>Cloud Services</h3>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="fa fa-lightbulb-o fa-4x fa-fw"></i>
+                    <div class="info">
+                        <h3>Fresh Ideas</h3>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="fa fa-envelope-o fa-4x fa-fw"></i>
+                    <div class="info">
+                        <h3>Attachment</h3>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="fa fa-star-o fa-4x fa-fw"></i>
+                    <div class="info">
+                        <h3>Support Video</h3>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="fa fa-heart-o fa-4x fa-fw"></i>
+                    <div class="info">
+                        <h3>Lovely Design</h3>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
                 </div>
             </div>
+            <div class="clearfix"></div>
+            <hr class="hr">
         </div>
     </div>
-<!-- ........................................ -->
-<!-- overview -->
-    <div class="overview text-center">
+    <!--end Services-->
+
+<!--start Our team-->
+    <div class="ourteam">
         <div class="container">
-            <h2>company overview</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam atque blanditiis commodi, distinctio consequuntur qui veritatis numquam corporis aut? Libero autem sed quis ea? Odit sint hic aliquam voluptatibus. Excepturi</p>
-            <h4>Lets Start Today</h4>
-            <button>View More</button>
-        </div>
-    </div>
-<!-- ........................................ -->
-<!-- featured work -->
-    <div class="featured-work text-center">
-        <div class="container">
-            <h2>Featured Work</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sint hic nihil tenetur libero laboriosam voluptates quis, dolorum aperiam inventore natus illum, dolore pariatur, beatae ut provident facilis numquam! Natus.</p>   
-            <ul class="list-unstyled row">
-                <li data-class="all" class="active col-md">All</li>
-                <li data-class=".websites" class="col-md">Wesites</li>
-                <li data-class=".logo" class="col-md">Logo</li>
-                <li data-class=".graphic" class="col-md">Graphic</li>
-                <li data-class=".marketing" class="col-md">Marketing</li>
-                <li data-class=".video" class="col-md">Videos</li>
-            </ul>  
-        </div>
-        <div class="shuffle-imgs">
-            <div class="row">
-                <div class="col-md">
-                    <img class="websites" src="./img/Featured_Work/temp1.jpg" alt="image"/>  
-                </div>
-                <div class="col-md">
-                    <img class="logo" src="./img/Featured_Work/temp2.jpg" alt="image"/>  
-                </div>
-                <div class="col-md">
-                    <img class="marketing" src="./img/Featured_Work/temp3.jpg" alt="image"/>  
-                </div>
-                <div class="col-md">
-                    <img class="video" src="./img/Featured_Work/temp4.jpg" alt="image"/>  
-                </div>    
+            <div class="box">
+                <h2 class="special-heading">Our Team</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
-            <div class="row">
-                <div class="col-md">
-                    <img class="logo" src="./img/Featured_Work/temp5.jpg" alt="image"/>  
-                </div>
-                <div class="col-md">
-                    <img class="websites" src="./img/Featured_Work/temp6.jpg" alt="image"/>  
-                </div>
-                <div class="col-md">
-                    <img class="graphic" src="./img/Featured_Work/temp7.jpg" alt="image"/>  
-                </div>
-                <div class="col-md">
-                    <img class="marketing" src="./img/Featured_Work/temp8.jpg" alt="image"/>  
+            <div class="box">
+                <div class="overlay">Mostafa</div>
+                <img src="img/img1.jpg" alt="image1" />
+            </div>
+            <div class="box">
+                <div class="overlay">Mahmoud</div>
+                <img src="img/img2.jpg" alt="image2" />
+            </div>
+            <div class="box">
+                <div class="overlay">Mohamed</div>
+                <img src="img/img3.jpg" alt="image3" />
+            </div>
+            <div class="box">
+                <div class="overlay">Abobakr</div>
+                <img src="img/img4.jpg" alt="image4" />
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!--end Our team-->
+<!-- start Testimonial -->
+    <div id="tes" class="testim">
+        <div class="overlay">
+            <div class="container">
+                <h2>What Our Clients Say</h2>
+                <div class="clients">
+                    <div class="active">
+                        <q>great people to have business with</q>
+                        <p>Mohab</p>
+                    </div>
+                    <div>
+                        <q>great people to have business with</q>
+                        <p>Mazen</p>
+                    </div>
+                    <div>
+                        <q>great people to have business with</q>
+                        <p>Kareem</p>
+                    </div>
+                    <div>
+                        <q>great people to have business with</q>
+                        <p>Ahmed</p>
+                    </div>
                 </div>    
             </div>
         </div>
+    </div>
+    <!-- end Testimonial -->
+<!--start projects    -->
+   <div id="por" class="projects">
+       <div  class="container">
+           <h2 class="special-heading">Projects</h2>
+           <ul class="controls">
+               <li class="filter selected" data-filter="all">All</li>
+               <li class="filter" data-filter=".web">Web</li>
+               <li class="filter" data-filter=".desktop">Desktop</li>
+           </ul>
+           <div id="container" class="galary">
+               <div class="row">
+                  <div class="mix web">
+                      <div class="over">details</div>
+                      <span class="heart">
+                          <i class="fa fa-heart"></i> 15 
+                      </span>
+                      <img src="img/products/b1.jpg" alt="pic3"/>
+                  </div>
+                   <div class="mix desktop">
+                       <div class="over">details</div>
+                       <span class="heart">
+                          <i class="fa fa-heart"></i> 15 
+                       </span>
+                       <img src="img/products/b2.jpg" alt="pic3"/>
+                  </div>
+                   <div class="mix web">
+                   <div class="over">details</div>
+                   <span class="heart">
+                        <i class="fa fa-heart"></i> 15 
+                   </span>
+                       <img src="img/products/b3.jpg" alt="pic3"/>
+                  </div> 
+               </div>
+               <div class="row">
+                   <div class="mix desktop">
+                       <div class="over">details</div>
+                       <span class="heart">
+                           <i class="fa fa-heart"></i> 15 
+                       </span>
+                       <img src="img/products/s1.jpg" alt="pic3"/>
+                   </div>
+                   <div class="mix web">
+                       <div class="over">details</div>
+                       <span class="heart">
+                           <i class="fa fa-heart"></i> 15 
+                       </span>
+                       <img src="img/products/s2.jpg" alt="pic3"/>
+                   </div>
+                   <div class="mix desktop">
+                       <div class="over">details</div>
+                       <span class="heart">
+                           <i class="fa fa-heart"></i> 15 
+                       </span>
+                       <img src="img/products/s3.jpg" alt="pic3"/>
+                   </div> 
+               </div>
+           </div>
+           <div class="clearfix"></div>
+       </div>
+   </div>
+   <!--   end projects-->
+<!--start footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="col">
+               <h2>About Classic</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+               <div class="mylinks">
+                    <span class="facebook">  
+                        <a href="https://www.facebook.com/mostafa7abobakr">
+                            <i class="fa fa-facebook fa-2x fa-fw" ></i>
+                        </a>
+                   </span>    
+                   <span class="linkdin">
+                        <a href="https://www.linkedin.com/in/mostafa-abobakr-3b2041145/">
+                            <i class="fa fa-linkedin fa-2x fa-fw"></i>
+                        </a>       
+                   </span>
+                   <span class="github">
+                        <a href="https://github.com/mostafaabobakr7">
+                           <i class="fa fa-github fa-2x fa-fw"></i>
+                        </a>
+                   </span>
+               </div>   
+               <p>Copyright 2017 &copy; By Mostafa Abobakr</p>
+            </div>
+            <div class="col">
+                <h2>Tags</h2>
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Bootstrap</span>
+                    <span>Responsive</span>
+                    <span>Art</span>
+                </div>
+            </div>
+            <div class="col posts">
+                <h2>Recent Posts</h2>
+                <div>
+                    <img src="./img/recent_posts/1.jpg" alt="pic1" />
+                    <h4>How To be fast</h4>
+                    <span>june,2015</span>  
+                </div>
 
-    </div>
-<!-- ........................................ -->
-<!-- latest post -->
-    <div class="latest-posts">
-        <div class="container">
-            <h2 class="text-center">Latest Posts</h2>
-            <p class="posth">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sint hic nihil tenetur libero laboriosam voluptates quis, dolorum aperiam inventore natus illum, dolore pariatur, beatae ut provident facilis numquam! Natus.</p>
-            <div class="row">
-                <div class="col-md-6 col-lg-3">
-                    <div class="card">
-                        <img class="card-img-top" src="./img/latest_posts/1.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">When pictures speaks louder</h4>
-                            <h6 class="card-subtitle mb-2 text-muted">Oct,5 2017</h6>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sint hic nihil tenetur libero labo.</p>
-                            <a href="#" class="card-link">Read More</a>
-                        </div>
-                    </div>
+                <div>
+                    <img src="./img/recent_posts/2.jpg" alt="pic2" />
+                    <h4>The Highest Jumper ever</h4>
+                    <span>sep,2016</span>
                 </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="card">
-                        <img class="card-img-top" src="./img/latest_posts/2.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">Feeling Lonely! get a pet</h4>
-                            <h6 class="card-subtitle mb-2 text-muted">Oct,5 2017</h6>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sint hic nihil tenetur libero labo.</p>
-                            <a href="#"class="card-link" >Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="card">
-                        <img class="card-img-top" src="./img/latest_posts/3.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">Be thankfull for what you have</h4>
-                            <h6 class="card-subtitle mb-2 text-muted">Oct,5 2017</h6>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sint hic nihil tenetur libero labo.</p>
-                            <a href="#" class="card-link">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="card">
-                        <img class="card-img-top" src="./img/latest_posts/4.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">Horses are sensitive animals</h4>
-                            <h6 class="card-subtitle mb-2 text-muted">Oct,5 2017</h6>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sint hic nihil tenetur libero labo.</p>
-                            <a href="#" class="card-link">Read More</a>
-                        </div>
-                    </div>
-                </div>               
-            </div>
-        </div>    
-    </div>
-<!-- ........................................ -->
-<!-- testimonial -->
-    <div class="testi">
-        <div class="overlay"></div>
-        <div class="container">
-            <div id="testi" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#testi" data-slide-to="0" class="active"></li>
-                <li data-target="#testi" data-slide-to="1"></li>
-                <li data-target="#testi" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="carousel-caption d-none d-block">
-                        <img  src="./img/testi/Mostafa.PNG" alt="First slide">
-                        <h3>Mostafa</h3>
-                        <span>Front End Developer</span>
-                        <br>                        
-                        <a href="https://github.com/mostafaabobakr7?tab=repositories" target="_blank">
-                            <i class="fa fa-github"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/mostafa-abobakr-3b2041145/" target="_blank">
-                            <i class="fa fa-linkedin"></i>
-                        </a> 
-                        <a href="https://www.facebook.com/mostafa7abobakr" target="_blank">
-                            <i class="fa fa-facebook"></i>
-                        </a>    
-                        <p>Build a Responsive websites with a great look as needed</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="carousel-caption d-none d-block">
-                        <img  src="./img/testi/Mohab.PNG" alt="Second slide">
-                        <h3>Mohab</h3>
-                        <span>Architect</span>
-                        <br>
-                        <a href="https://www.facebook.com/Mohab.m.Abobakr?fref=hovercard&hc_location=chat" target="_blank">
-                            <i class="fa fa-facebook"></i>
-                        </a>             
-                        <p>Build 3D models and mooc of Buildings</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="carousel-caption d-none d-block">
-                        <img  src="./img/testi/Kareem.PNG" alt="Third slide">
-                        <h3>Kareem</h3>
-                        <span>Professor</span>
-                        <br>
-                        <a href="https://www.linkedin.com/in/kareemhani/" target="_blank">
-                            <i class="fa fa-linkedin"></i>
-                        </a>
-                        <a  href="https://www.facebook.com/kareemhani?fref=hovercard&hc_location=chat" target="_blank">  
-                            <i class="fa fa-facebook"></i>
-                        </a>   
-                        <p>Teaching is my life interest</p>
-                    </div>
+                <div>
+                    <img src="./img/recent_posts/3.jpg" alt="pic3" />
+                    <h4>The real mening of Power</h4>
+                    <span>oct,2017</span>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#testi" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#testi" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-            </div>   
+            <div id="con" class="col blog">
+                <h2>Blog Categories</h2>
+                <ul>
+                    <li>Agency</li>
+                    <li>Business</li>
+                    <li>Multi Purpose</li>
+                    <li>Audio</li>
+                </ul>
+                
+            </div>
+            <div class="clearfix" ></div>
         </div>
     </div>
-<!-- ........................................ -->
-<!-- Pricing Table -->
-    <div class="prices">
-        <div class="container">
-            <h2 class="text-center">Pricing Table</h2>
-            <p class="posth">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sint hic nihil tenetur libero laboriosam voluptates quis, dolorum aperiam inventore natus.</p>
-            <div class="row text-center">
-                <div class="col-md-6 col-lg-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h4 class="card-title">Small Business</h4>
-                            <h6 class="card-subtitle mb-2 text-muted">Lorem ipsum</h6>
-                            <p class="card-text">$99/<span>Year</span></p>
-                            <br>
-                            <h6 class="card-subtitle mb-2 text-muted">Lorem ipsum</h6>
-                            <br>
-                            <h6 class="card-subtitle mb-2 text-muted">Lorem ipsum</h6>
-                            <br>
-                            <h6 class="card-subtitle mb-2 text-muted">Lorem ipsum</h6>
-                            <br>
-                            <h6 class="card-subtitle mb-2 text-muted">Lorem ipsum</h6>
-                            <br>
-                            <h6 class="card-subtitle mb-2 text-muted">Lorem ipsum</h6>
-                            <br>
-                            <button>View More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="card corporate">
-                        <div class="card-body ">
-                            <h4 class="card-title">Corporate</h4>
-                            <h6 class="card-subtitle mb-2 text-muted">Lorem ipsum</h6>
-                            <p class="card-text">$199/<span>Year</span></p>
-                            <br>
-                            <h6 class="card-subtitle mb-2 text-muted">Lorem ipsum</h6>
-                            <br>
-                            <h6 class="card-subtitle mb-2 text-muted">Lorem ipsum</h6>
-                            <br>
-                            <h6 class="card-subtitle mb-2 text-muted">Lorem ipsum</h6>
-                            <br>
-                            <h6 class="card-subtitle mb-2 text-muted">Lorem ipsum</h6>
-                            <br>
-                            <h6 class="card-subtitle mb-2 text-muted">Lorem ipsum</h6>
-                            <br>
-                            <button>View More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h4 class="card-title">Enterprise</h4>
-                            <h6 class="card-subtitle mb-2 text-muted">Lorem ipsum</h6>
-                            <p class="card-text">$299/<span>Year</span></p>
-                            <br>
-                            <h6 class="card-subtitle mb-2 text-muted">Lorem ipsum</h6>
-                            <br>
-                            <h6 class="card-subtitle mb-2 text-muted">Lorem ipsum</h6>
-                            <br>
-                            <h6 class="card-subtitle mb-2 text-muted">Lorem ipsum</h6>
-                            <br>
-                            <h6 class="card-subtitle mb-2 text-muted">Lorem ipsum</h6>
-                            <br>
-                            <h6 class="card-subtitle mb-2 text-muted">Lorem ipsum</h6>
-                            <br>
-                            <button>View More</button>
-                        </div>
-                    </div>
-                </div>              
-            </div>
-        </div>    
-    </div>
-<!-- ........................................ -->
-<!-- why choose us -->
-    <div class="choose">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-6">
-                    <img src="./img/choose.jpg" alt="choose-img"/> 
-                </div>
-                <div class="col-6">
-                    <h1>Why Choose Us</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam minus nobis excepturi aut eveniet voluptatem quam in quia necessitatibus architecto a nesciunt ea ullam at facilis vero,quibusdam veritatis consectetur.</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam minus nobis excepturi aut </p>
-                    <a href="#" class="read-more">Read more</a>
-                </div>                    
-            </div>
-        </div>
-    </div>
-<!-- ........................................ -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- ...................................... -->
+    <!--end footer    -->
     <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/jquery.nicescroll.min.js"></script>
-    <script src="js/popper.min.js"></script>    
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script>
+        var containerEl = document.querySelector('#container');
+        var mixer = mixitup(containerEl);
+    </script>
+    <script src="js/jquery.nicescroll.min.js" ></script>
     <script src="js/jq.js"></script>
 </body>
 
